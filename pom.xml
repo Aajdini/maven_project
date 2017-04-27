@@ -314,4 +314,24 @@ Pour que le git.properties soit à la racine de target, il faut l'indiquer ici
     	</plugins>
 
 	</build>
+<dependencies>
+	<dependency>
+		<groupId>org.testng</groupId>
+		<artifactId>testng</artifactId>
+		<version>6.8</version>
+		<scope>test</scope>
+	</dependency>
+	<dependency>
+		<groupId>org.mockito</groupId>
+		<artifactId>mockito-all</artifactId>
+		<version>1.9.5</version>
+	</dependency>
+	<dependency>
+    <groupId>org.assertj</groupId>
+    <artifactId>assertj-core</artifactId>
+    <!-- use version 2.0.0 or higher -->
+    <version>2.0.0</version>
+    <scope>test</scope>
+	</dependency>
+</dependencies>
 </project>
