@@ -16,14 +16,16 @@ public class Employe {
    private String nom;
    private String prenom;
    private Date dateNaissance;
+   private String email;
    private double salaire;
    private int age;
    
    public Employe(){}
-   public Employe(String nom,String prenom,Date dateNaissance, double salaire, int age){
+   public Employe(String nom, String prenom, Date dateNaissance, String email, double salaire, int age){
         this.nom = nom;
         this.prenom = prenom;
         this.dateNaissance = dateNaissance;
+        this.email = email;
         this.salaire = salaire;
         this.age = age; 
    }
