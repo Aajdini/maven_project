@@ -15,13 +15,13 @@ public class Employe {
 
    private String nom;
    private String prenom;
-   private Date dateNaissance;
+   private String dateNaissance;
    private String email;
    private double salaire;
    private int age;
    
    public Employe(){}
-   public Employe(String nom, String prenom, Date dateNaissance, String email, double salaire, int age){
+   public Employe(String nom, String prenom, String dateNaissance, String email, double salaire, int age){
         this.nom = nom;
         this.prenom = prenom;
         this.dateNaissance = dateNaissance;
@@ -29,6 +29,14 @@ public class Employe {
         this.salaire = salaire;
         this.age = age; 
    }
+
+    public void setEmail(String email) {
+        this.email = email;
+    }
+
+    public String getEmail() {
+        return email;
+    }
 
     public String getNom() {
         return nom;
@@ -38,7 +46,7 @@ public class Employe {
         return prenom;
     }
 
-    public Date getDateNaissance() {
+    public String getDateNaissance() {
         return dateNaissance;
     }
 
@@ -58,7 +66,7 @@ public class Employe {
         this.prenom = prenom;
     }
 
-    public void setDateNaissance(Date dateNaissance) {
+    public void setDateNaissance(String dateNaissance) {
         this.dateNaissance = dateNaissance;
     }
 
