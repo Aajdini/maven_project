@@ -5,7 +5,7 @@
  */
 package com.hesge.ajdini.maven_projet;
 
-import com.hesge.ajdini.maven_projet.presentation.MainFrm;
+import com.hesge.ajdini.maven_projet.presentation.LoginFrm;
 
 /**
  *
@@ -13,7 +13,7 @@ import com.hesge.ajdini.maven_projet.presentation.MainFrm;
  */
 public class Main {
     public static void main (String[] args) {
-		new MainFrm().setVisible(true);
+		new LoginFrm().setVisible(true);
     
   } // main
 }
